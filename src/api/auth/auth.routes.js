@@ -90,6 +90,7 @@ router.post('/login', async (req, res, next) => {
   }
 });
 
+// 刷新用户令牌
 router.post('/refreshToken', async (req, res, next) => {
   try {
     const { refreshToken } = req.body;
@@ -133,6 +134,7 @@ router.post('/refreshToken', async (req, res, next) => {
 
 // This endpoint is only for demo purpose.
 // Move this logic where you need to revoke the tokens( for ex, on password reset)
+// 撤销用户令牌
 router.post('/revokeRefreshTokens', async (req, res, next) => {
   try {
     const { userId } = req.body;
