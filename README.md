@@ -15,11 +15,26 @@ This is a Node.js rapid development framework based on Express and Prisma for im
 - Integrates with the Prisma database access tool.
 - Provides sample interfaces and processing logic, including user registration, login, and access to protected resources.
 
+
+
+## JWT认证
+
+您可以查看以下：
+
+[Json-Web-Token](https://self-issued.info/docs/draft-ietf-oauth-json-web-token.html)
+
+[一文讲解JWT用户认证全流程](https://zhuanlan.zhihu.com/p/158186278)
+
 You can check the blog post.
  [here](https://dev.to/mihaiandrei97/jwt-authentication-using-prisma-and-express-37nk).
 
 
-关于 JWT, 您可以查看 [Json-Web-Token](https://self-issued.info/docs/draft-ietf-oauth-json-web-token.html).
+## Prisma
+
+Prisma是一个开源的数据库工具链项目，帮助开发人员更快地构建应用程序并减少错误，支持PostgreSQL、MySQL、MongoDB、SQL Server和SQLite。
+[Prisma中文官网](https://prisma.yoga/)
+
+
 
 ## 安装依赖包 Setup
 
